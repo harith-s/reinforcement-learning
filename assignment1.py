@@ -16,7 +16,7 @@ def reward_function(choice):
     elif choice == 1:
         return np.random.choice([3,-4])
     elif choice == 2:
-        return np.random.poisson(2.0)f
+        return np.random.poisson(2.0)
     elif choice == 3:
         return np.random.normal(1,2)
     elif choice == 4:
